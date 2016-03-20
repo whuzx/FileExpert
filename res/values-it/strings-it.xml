@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">File Expert</string>
+    <string name="text_viewer">Visalizzatore Testi di File Expert</string>
+    <string name="hide_toolbar">Nascondi strumenti</string>
+    <string name="show_toolbar">Mostra strumenti</string>
+    <string name="save">Salva</string>
+    <string name="speech">Parla</string>
+    <string name="save_ask">Salvare questo file?</string>
+    <string name="save_ok">Scrittura riuscita</string>
+    <string name="save_fail">Scrittura fallita</string>
+    <string name="language">Italiano</string>
+    <string name="exit_twice">Premi INDIETRO ancora una volta per uscire da File Expert</string>
+    <string name="donation">Contributi</string>
+    <string name="tasks">Processi</string>
+    <string name="task_manager">Gestione processi</string>
+    <string name="kill">Termina</string>
+    <string name="avail_mem">Memoria disponibile</string>
+    <string name="running_tasks">Processi in esecuzione</string>
+    <string name="donate_btn">Selezionate il tasto Paypal per inviare una gentile donazione. Grazie.\nPremete INDIETRO per annullare.</string>
+    <string name="donate_dlg_msg">Se pensate che FE cambi il modo in cui condividete e gestite i file, per favore prendete in considerazione l\'idea di contribuire con una piccola donazione.\nNota che FE è un software libero, ed è possibile utilizzare tutte le sue funzionalità anche SENZA alcuna donazione. Se in futuro decidete di fare una donazione, scegliete Donazioni dal menù.\nQuesta finestra verrà mostrata solo una volta.\nGrazie.</string>
+    <string name="donate_yes">CONTRIBUISCO!</string>
+    <string name="donate_thank_you">Il contributo è stato accettato da Paypal!\nGrazie mille per il contributo!\nIl vostro contributo ci permetterà di sviluppare nuove applicazioni Android per tutti gli utenti.\nNelle future versioni verranno forniti servizi agiuntivi agli utenti che hanno effettuato donazioni.</string>
+    <string name="donate_no">NO, vai avanti</string>
+    <string name="up">Dir Su</string>
+    <string name="detail">Dettagli</string>
+    <string name="detail_type">Tipo: </string>
+    <string name="file">File</string>
+    <string name="directory">Cartella</string>
+    <string name="detail_lm">Ultima modifica: </string>
+    <string name="detail_size">Dimensione(Byte): </string>
+    <string name="computing_dir_size">Sto calcolando la dimensione della cartella, attendere prego...</string>
+    <string name="working">Elaborazione</string>
+    <string name="http_on">HTTP</string>
+    <string name="ftp_on">FTP</string>
+    <string name="new_folder">Nuova Dir</string>
+    <string name="home">Home</string>
+    <string name="oper">Azioni</string>
+    <string name="back">Indietro</string>
+    <string name="grid_mode">Griglia</string>
+    <string name="list_mode">Lista</string>
+    <string name="batch_mode_on">Batch On</string>
+    <string name="batch_mode_off">Batch Off</string>	    
+    <string name="info_collect_warn">È possibile utilizzare una libreria di terze parti per raccogliere alcune informazioni sull\'esecuzione dell\'applicazione come notifica di errori, utilizzo della memoria ed altre informazioni tecniche.\nDa notare che NON VERRANNO raccolte informazioni personali sugli utenti. Tutte le informazioni raccolte verranno utilizzate per aiutare gli sviluppatori a migliorare FE.\nSe acconsentite alla raccolta di informazioni, scegliete SÌ, PER FAVORE, altrimenti selezionate NO, GRAZIE.\nGrazie per la vostra collaborazione.</string>
+    <string name="info_yes">SÌ, PER FAVORE</string>
+    <string name="info_no">NO, GRAZIE</string> 
+    <string name="info_title">Conferma raccolta informazioni</string>
+    <string name="search_smb_svr">Ricerca server SMB anonimi</string>
+    <string name="search_smb_war">La ricerca di server SMB anonimi può richiedere 5 o più minuti al suo completamento in base alla rete.\nSiete sicuri di voler ricercare tali server SMB? È anche possibile inserire queste informazioni aggiungendo un nuovo server SMB.\nQuesta funzione inoltre non supporta i server su domini Windows.</string>
+    <string name="disable_media_pic">Disabilita scansione contenuti</string>
+    <string name="enable_media_pic">Abilita scansione contenuti</string>
+    <string name="reboot_requ">Riavviare il dispositivo per rendere effettive le modifiche.</string>
+    <string name="open_in_market">Apri nel Market</string>
+    <string name="selall">Sel. tutti</string>
+    <string name="removeall">Des. tutti</string>    
+    <string name="backup">Backup</string>
+    <string name="backup_to">Le app selezionate sono state backuppate con successo su: </string>
+    <string name="simple_list_title">Modalità Lista Semplice</string>
+    <string name="simple_list">Mostra solo il nome per ogni elemento della lista</string>
+    <string name="mount">Monta</string>
+    <string name="mount_ok">Montaggio OK! - Montato su: </string>
+    <string name="mount_fail">Montaggio FALLITO!</string>
+    <string name="root_fail">Non posso accedere con i privilegi di root!</string>
+    <string name="mount_warn">Sono necessari i privilegi di ROOT per completare l\'operazione. Se il dispositivo è già stato rootato, selezionare SÌ quando viene chiesto di dare l\'accesso a FE.\nQuesta funzionalità richiede inoltre che il firmware personalizzato CM sia installato sul dispositivo. Non è fornito supporto per il firmware ufficiale.\nSe il dispositivo dispone dei citati requisiti, scegliere CONFERMA, altrimenti scegliere ANNULLA.</string>
+    <string name="share_close_ok">Condivisione terminata</string>
+    <string name="default_sharing_dir">Cartella condivisa predefinita</string>
+    <string name="wifi_disconnect">Il WIFI non è connesso! Provare comunque ad aprire la cartella remota?</string>
+    <string name="port_root_warning">Non è possibile utilizzare una porta inferiore a 1024. Scegliere un\'altra porta.\nPer l\'FTP, non scegliere porte tra 4000 e 4199, File Expert le utilizza per trasferire dati tramite l\'FTP in modalità passiva.</string>
+    <string name="root">Acquisizione dei privilegi di root</string>
+    <string name="input_correct_value">Inserire i valori corretti</string>
+    <string name="input_new_folder_name">Inserire il nuovo nome della cartella</string>
+    <string name="input_new_name">Inserire il nuovo nome</string>
+    <string name="web_title">Condivisione dei file del dispositivo mobile</string>
+    <string name="http_setting">Impostazioni HTTP</string>
+    <string name="http_port">Porta del server HTTP:</string>
+    <string name="ftp_serv_port">Porta del server FTP:</string>    
+    <string name="web_head">Contenuto della cartella - Powered by File Expert</string>
+    <string name="web_prev_dir">Cartella superiore</string>
+    <string name="web_name">Nome</string>
+    <string name="web_size">Dimensione</string>
+    <string name="web_last">Ultima modifica</string>
+    <string name="web_desc">Descrizione</string>
+    <string name="web_upload">Specificare un file da caricare:</string>
+    <string name="web_send">Carica</string>    
+    <string name="web_tail">Server HTTP di File Expert in esecuzione su dispositivo mobile Android</string>
+    <string name="desc">Un piccolo ma potente software per la gestione dei file che supporta la condivisione via WIFI</string>
+    <string name="sea_desr">Inserire il nome del file o della cartella che si intende ricercare, o specificare un\'adeguata espressione regolare:</string>
+    <string name="uninstall">Disinstalla</string>
+    <string name="delete_confirm">Si è sicuri di voler eliminare questo file?</string>
+    <string name="confirm">Conferma</string>
+    <string name="package_oper">App Operations</string>
+    <string name="sub_dir">Ricerca nelle sottocartelle</string>
+    <string name="reg_exp">Espressione regolare</string>
+    <string name="ignore_case">Ignora maiuscole</string>
+    <string name="not_found">Spiacente, non è stata trovata nessuna corrispondenza.</string>
+    <string name="search">Ricerca</string>
+    <string name="search_result">Risultati della ricerca</string>
+    <string name="go2web">Sito web</string>
+    <string name="local">Locale</string>
+    <string name="remote">Remoto</string>
+    <string name="favourite">Segnalibri</string>
+    <string name="any_access">Anonimo</string>
+    <string name="smb_setting">Impostazioni SMB</string>
+    <string name="smb_buf">Dimensione buffer stream SMB (Bytes):</string>
+    <string name="share_domain">Dominio server(lascia vuoto se N/D):</string>
+    <string name="share_ip">Indirizzo IP del server o nome computer:</string>
+    <string name="smb_buf_invalid">Inserire una dimensione del buffer valida</string>
+    <string name="ftp_must_auth">Per questioni di sicurezza, è necessario specificare nome utente e password per l\'FTP</string>
+    <string name="user_name">Nome utente:</string>
+    <string name="password">Password:</string>
+    <string name="password_access">Protetto da password</string>
+    <!-- Unused -->
+    <string name="and22_warning">Spiacenti, la condivisione FTP attuale non è supportata nei sistemi Android 2.2.</string>
+    <string name="ftp_success">Avvio condivisione FTP eseguito.</string>
+    <string name="ftp_setting">Impostazioni FTP</string>
+    <string name="ftp_addr">FTP Indirizzo IP: </string>
+    <string name="ftp_user">FTP Nome utente: </string>
+    <string name="ftp_pass">FTP Password: </string>
+    <string name="ftp_port">FTP Porta: </string>
+    <string name="auto_sd_title">Apertura automatica SD</string>
+    <string name="auto_sd">Apri automaticamente la scheda SD all\'avvio</string>
+    <string name="use_list_title">Lista</string>
+    <string name="use_list">Utilizza la modalità lista come visualizzazione predefinita</string>
+    <string name="no_sleep_title">Blocco standby</string>
+    <string name="no_sleep">Evita lo standby mentre la condivisione HTTP WIFI è abilitata</string>
+    <string name="no_sleep_ftp">Evita lo standby mentre la condivisione FTP WIFI è abilitata</string>
+    <!-- Unused -->
+    <string name="style_classic">Utilizza lo stile dell\'UI nativo di Android</string>
+    <string name="program">Programmi</string>
+    <string name="start_dir">Imposta cartella iniziale</string>
+    <string name="file_start_dir">Impossibile impostare file come cartella iniziale</string>
+    <string name="info">Informazioni</string>
+    <string name="smb_servers">Server SMB per la condivisione file</string>
+    <string name="create_somthing">Nuovo...</string>
+    <string name="close_share">Chiudi tutti i servizi di condivisione</string>
+    <string name="wifi_receiver_ip">Indirizzo IP del destinatario</string>
+    <string name="invalid_ip">Indirizzo IP non valido</string>
+    <string name="send">Invia file</string>
+    <string name="open">Apri</string>
+    <string name="edit">Modifica</string>
+    <string name="batch">Gruppo</string>
+    <string name="batch_run">Riproduzione/Esecuzione/Installazione di gruppo</string>
+    <string name="smb_ser_oper">Operazioni server SMB</string>
+    <string name="add_new_smb_svr">Aggiungi nuovo server SMB</string>
+    <string name="exit_app">Esci</string>
+    <string name="settings">Config.</string>
+    <string name="settings_menu">Configurazione</string>
+    <string name="mode_change">Visualizza griglia/lista</string>
+    <string name="open_share">Apri cartella condivisa remota</string>
+    <string name="open_app_list">Apri applicazioni installate</string>
+    <string name="about">A proposito</string>
+    <string name="error">Errore</string>
+    <string name="warning">Attenzione</string>
+    <string name="operation">Azione</string>
+    <string name="add_bookmark">Aggiungi ai Segnalibri</string>
+    <string name="remove_bookmark">Rimuovi dai Segnalibri</string>
+    <string name="open_bookmark">Apri Segnalibri</string>
+    <string name="bookmark">Segnalibri</string>
+    <string name="already_bookmark">L\'elemento è già presente nei segnalibri</string>
+    <string name="folder_only">L\'azione specificata è possibile solo su una cartella</string>
+    <string name="install_error">Installazione fallita</string>
+    <string name="share_error">Condivisione fallita</string>
+    <string name="network_share">Condivisione di rete</string>
+    <string name="empty_folder">Cartella vuota</string>
+    <string name="exit_fe">Esci da File Expert</string>
+    <string name="installed_app">Applicazioni installate</string>
+    <string name="back_2_previous_folder">Cartella precedente</string>
+    <string name="show_tabs">Mostra Tab</string>
+    <string name="hide_tabs">Nascondi Tab</string>
+    <string name="back_2_root_dir">Cartella Root</string>
+    <string name="Okay">Ok</string>
+    <string name="cancel">Annulla</string>
+    <string name="apply">Applica</string>
+    <string name="clear">Pulisci</string>
+    <string name="overwrite_all">Sovrascrivi tutto</string>
+    <string name="overwrite">Sovrascrivi</string>
+    <string name="skip">Salta</string>
+    <string name="file_operation">Azioni file</string>
+    <string name="delete">Cancella</string>
+    <string name="copy">Copia</string>
+    <string name="paste">Incolla</string>
+    <string name="cut">Taglia</string>
+    <string name="rename">Rinomina</string>
+    <string name="install_all_apk">Installa tutti i pacchetti APK</string>
+    <string name="zip">Archivia</string>
+    <string name="unzip">Estrai</string>
+    <string name="setup_http_share">Condividi via HTTP(Web)</string>
+    <string name="setup_ftp_share">Condividi via FTP</string>
+    <string name="copy_error">Copia fallita</string>
+    <string name="already_exist">esiste già, selezionare l\'azione da eseguire</string>
+    <string name="copying">Copia in corso...</string>
+    <string name="cuting">Taglio in corso...</string>
+    <string name="deleting">Cancellazione in corso...</string>
+    <string name="del_error">Cancellzaione fallita, operazione annullata</string>
+    <string name="cut_error_del">Impossibile eliminare i file durante lo spostamento ad un\'altra locazione</string>
+    <string name="create_new_folder">Crea nuova cartella</string>
+    <string name="default_new_folder_name">Nuova cartella</string>
+    <string name="cannot_create_folder">Impossibile creare nuova cartella</string>
+    <string name="invalid_copy_path">Impossibile copiare una cartella in una sua sottocartella</string>
+    <string name="lunch_fault">Impossibile avviare l\'applicazione</string>
+    <string name="fe_setting">File Expert - Impostazioni</string>
+    <string name="cannot_rename">Impossibile rinominare</string>
+    <!-- Unused -->
+    <string name="no_setup_smb_server">IP del server di condivisione NON IMPOSTATO</string>
+    <!-- Unused -->
+    <string name="no_setup_smb_server_name">Nome utente del server di condivisione NON IMPOSTATO</string>
+    <!-- Unused -->
+    <string name="no_setup_smb_server_pass">Password del server di condivisione NON IMPOSTATA</string>
+    <!-- Unused -->
+    <string name="setup_smb_server">IP o nome macchina del server di condivisione： </string>
+    <!-- Unused -->
+    <string name="setup_smb_server_name">Nome utente del server di condivisione： </string>
+    <!-- Unused -->
+    <string name="setup_smb_server_pass">Password del server di condivisione già impostata</string>
+    <string name="share_pc_info">Parametri server SMB</string>
+    <string name="sort">Ordina</string>
+    <string name="sort_by_name">Per nome</string>
+    <string name="sort_by_type">Per tipo</string>
+    <string name="sort_by_last_modify">Per ultima modifica</string>
+    <string name="sort_by_size">Per dimensione</string>
+    <string name="ziping">Archiviazione...</string>
+    <string name="unziping">Estrazione...</string>
+    <string name="zip_only">L\'unico formato di archiviazione attualmente supportato è lo ZIP</string>
+    <string name="deal_with">Sto elaborando:</string>
+    <string name="no_folder_access_permission">Impossibile accedere alla cartella</string>
+    <string name="smb_server_access_error">Impossibile accedere alla risorsa</string>
+    <string name="share_success">Servizio di condivisione Web avviato!\nAccedere al seguente URL dal proprio computer:\n</string>
+    <string name="next_version_support">Questa funzione sarà disponibile dalla prossima versione</string>
+    <!-- Unused -->
+    <string name="choose_share_folder">Selezionare una cartella come condivisione remota</string>
+    <!-- Unused -->
+    <string name="choose_local_folder">Selezionare una cartella come condivisione locale</string>
+    <string name="share_power_warning">Per mantenere la condivisione attiva, File Expert impedirà al dispositivo di disattivarsi. Ne potrebbe conseguire un accorciamento della vita della batteria.</string>
+    <string name="no_smb_server">Nessun server SMB definito, aggiungerne almeno uno. Vuoi creare una nuova?</string>
+    <string name="no_file_opener">Impossibile aprire questo tipo di file</string>
+    <string name="show_hidden_dirs_title">Documenti nascosti</string>
+    <string name="show_hidden_dirs">Mostra i file e le cartelle nascoste il cui nome inizia per \".\"</string>
+
+    <string name="about_info">File Expert 2.6.3\nBuild20110226\nAll Rights Reserved by Alex Xin\nBUG Report：xinxiaoc@gmail.com</string>
+	<string name="change_log">Change Log</string>
+	<string name="log">1. Add progress bar and cancel button on file copy, delete, apk install, apk uninstall\n2. Improve browsing folder performance\n3. Fix some FC bugs\n4. Fix SMB up dir issue</string>
+
+	<string name="encoding">Codifiche</string>
+	<string name="ftp_encoding">Codifiche FTP</string>
+	<string name="pref_ftp_encoding">Imposta la codifica utilizzata nelle trasmissioni FTP, provare le varie combinazioni nel caso i file trasmessi contengano caratteri strani</string>
+	<string name="apk_install_setting">Impostazioni installazione APK</string>
+	<string name="slient_install">Installazione silenziosa</string>
+	<string name="slient_install_desc">Installa i pacchetti APK senza richiesta di conferma.\nNecessari i privilegi di ROOT.\nAttenzione: Abilitare questa voce permette a FE di installare qualsiasi pacchetto a prescindere dalla sua origine.</string>
+	<string name="apk_location">Percorso di installazione</string>
+	<string name="apk_install_loc_desc">Imposta la destinazione predefinita per l\'installazione dei pacchetti. Su Froyo funziona solo se APP2SD è abilitato</string>
+	<string name="apk_auto">Selezione automatica</string>
+	<string name="apk_sdcard">Scheda SD</string>
+	<string name="apk_flash">Memoria interna</string>
+	<string name="find_apk">Ricerca degli APK da installare...</string>
+	<string name="installing">Sto installando: </string>
+	<string name="silent_uninstall">Disinstallazione silenziosa</string>
+	<string name="silent_uninstall_desc">Disinstalla le app senza richiedere conferma.\nnNecessari i privilegi di ROOT.\nAttenzione: Abilitare questa voce permette a FE di disinstallare qualsiasi applicazione selezionata.</string>
+
+	<string name="speech_cmd_ok">Comando eseguito con successo</string>
+	<string name="undefined_cmd">Comando non definito</string>
+	
+	<string name="openwith">Apri con</string>
+
+	<string name="downloadall">Scarica tutto come unico pacchetto ZIP</string>
+	
+	<string name="share">Condividi</string>
+	<string name="share_to">Condividi su...</string>
+	<string name="share_failed">Condivisione fallita.</string>
+
+	<string name="thumbnails">Anteprime</string>
+	<string name="thumbnails_info">Mostra le anteprime, disabilita questa opzione per migliorare le prestazioni</string>
+	<string name="apk_icon">Icona APK</string>
+	<string name="apk_icon_info">Mostra le icone dei file APK, supportato in tutte le versioni di Android</string>
+	<string name="file_explorer_setting">Impostazioni della navigazione file</string>
+
+	<string name="http_sharing_on">La condivisione HTTP è ON</string>
+	<string name="ftp_sharing_on">La condivisione FTP è ON</string>
+	<string name="fe_running">File Expert è in esecuzione</string>
+	<string name="touch_cfg">Toccare per configurare</string>
+	<string name="fe_touch_switch">Toccare per passare al File Expert</string>
+	
+	<string name="delete_warn">Do you confirm to delete those selected files?</string>
+	<string name="delete_empty">No entires selected. Please select at least one entry.</string>
+	
+	<string name="app_manager_settings">App Manager Settings</string>
+	<string name="web_page_index">Allow Web Paging</string>
+	<string name="web_page_detail">If enabled, we will page on web directory listing. Useful when there are too many files on sdcard</string>
+	<string name="all_apps">Show All Apps</string>
+	<string name="all_apps_detail">Select it to show all apps on App Manager including system apps</string>
+	
+	<string name="itemtype">Tipo</string>
+
+	<string name="notify_icon">Icona di notifica</string>
+	<string name="notify_icon_detail">Mostra icona di notifica sulla barra delle applicazioni, se si sente fastidioso si può disabilitare</string>
+
+	<string name="http_user_name">Web Nome Utente</string>
+	<string name="http_password">Web Password</string>
+	<string name="weblogin">Login Web</string>
+	<string name="weblogin_detail">Attivare questa volontà richiede login Web su ogni sessioni HTTP connetterti</string>
+
+	<string name="web_user">User Name:</string>		
+	<string name="web_password">Password:</string>	
+
+	<string name="save_mul_title">Save Multiple Results</string>     
+    <string name="save_mul_detail">Save all multiple choice results while going to another directories</string>   
+
+	<string name="action_name">BackgroudProcessorAction</string>
+	
+	<string name="dir_warning">You cannot copy or cut folders to its child folders</string>
+	    						
+</resources>

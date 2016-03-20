@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/ll_detail"
+  android:orientation="vertical"
+  >
+<TextView
+  android:id="@+id/tv_detail_type"
+  android:paddingLeft="20dp"
+  android:paddingRight="20dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/ddddd"
+  />
+<TextView
+  android:id="@+id/tv_detail_last_modified"
+  android:paddingLeft="20dp"
+  android:paddingRight="20dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/ddddd"
+  />
+<TextView
+  android:id="@+id/tv_detail_size"
+  android:paddingLeft="20dp"
+  android:paddingRight="20dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/ddddd"
+  />
+<RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+<Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"  
+  android:layout_centerInParent="true"
+  android:id="@+id/btn_detail_confirm"
+  android:text="@string/confirm"
+  />
+</RelativeLayout>
+</LinearLayout>

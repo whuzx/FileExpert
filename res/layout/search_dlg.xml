@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/search_dlg"
+>
+<TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/sea_tv_name"
+  android:text="@string/sea_desr"
+/>
+<EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/sea_et_name"
+  android:text="@string/empty"
+  android:layout_below="@id/sea_tv_name"
+  />
+<CheckBox
+  android:id="@+id/sea_cb_subdir"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/sub_dir"
+  android:layout_below="@id/sea_et_name"
+  />
+<CheckBox
+  android:id="@+id/sea_cb_reg"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/reg_exp"
+  android:layout_below="@id/sea_cb_subdir"
+  />
+<CheckBox
+  android:id="@+id/sea_cb_case"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/ignore_case"
+  android:layout_below="@id/sea_cb_reg"
+  />
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="horizontal"
+  android:gravity="bottom"
+>  
+<Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  android:id="@+id/sea_btn_okay"
+  android:text="@string/Okay"
+  />  
+<Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  android:id="@+id/sea_btn_cancle"
+  android:text="@string/cancel"
+  />
+</LinearLayout>
+</RelativeLayout>

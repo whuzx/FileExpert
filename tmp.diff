@@ -1,0 +1,88 @@
+diff --git a/res/layout/audio_player.xml b/res/layout/audio_player.xml
+index 46d5278..2a480fd 100644
+--- a/res/layout/audio_player.xml
++++ b/res/layout/audio_player.xml
+@@ -7,7 +7,7 @@
+ <Button
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+-  android:text="PLAY"
++  android:text="@string/play"
+   android:id="@+id/audio_play"
+   />
+     
+diff --git a/res/layout/detail_dlg.xml b/res/layout/detail_dlg.xml
+index d08e835..32be455 100644
+--- a/res/layout/detail_dlg.xml
++++ b/res/layout/detail_dlg.xml
+@@ -12,7 +12,7 @@
+   android:paddingRight="20dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+-  android:text="ddddd"
++  android:text="@string/ddddd"
+   />
+ <TextView
+   android:id="@+id/tv_detail_last_modified"
+@@ -20,7 +20,7 @@
+   android:paddingRight="20dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+-  android:text="ddddd"
++  android:text="@string/ddddd"
+   />
+ <TextView
+   android:id="@+id/tv_detail_size"
+@@ -28,7 +28,7 @@
+   android:paddingRight="20dp"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+-  android:text="ddddd"
++  android:text="@string/ddddd"
+   />
+ <RelativeLayout
+   android:layout_width="fill_parent"
+diff --git a/res/layout/search_dlg.xml b/res/layout/search_dlg.xml
+index 2c9223a..9934ef1 100644
+--- a/res/layout/search_dlg.xml
++++ b/res/layout/search_dlg.xml
+@@ -15,7 +15,7 @@
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:id="@+id/sea_et_name"
+-  android:text=""
++  android:text="@string/empty"
+   android:layout_below="@id/sea_tv_name"
+   />
+ <CheckBox
+diff --git a/res/layout/umeng_feedback.xml b/res/layout/umeng_feedback.xml
+index 2d0d172..8c12a60 100644
+--- a/res/layout/umeng_feedback.xml
++++ b/res/layout/umeng_feedback.xml
+@@ -22,7 +22,7 @@
+ 				    android:layout_height="wrap_content"
+ 				    android:layout_centerHorizontal="true"
+ 				    android:layout_marginTop="4dp"
+-				    android:text="友盟反馈"
++				    android:text="@string/umeng_feedback"
+ 				    android:textColor="#BCBCBC"
+ 				    android:textSize="21dp">
+ 			    </TextView>
+@@ -43,7 +43,7 @@
+ 			   	android:textColor="#706F6D"
+ 			    android:layout_marginTop="10dp"
+ 			    android:layout_marginBottom="10dp"
+-			    android:text="欢迎您提出宝贵的意见和建议，您留下的每个字都将用来改善我们的服务。">
++			    android:text="@string/umeng_feedback_title">
+ 		    </TextView>
+ 		    
+ 		     <RelativeLayout android:layout_width="fill_parent"
+@@ -77,7 +77,7 @@
+ 			<Button android:id="@+id/feedback_submit" 
+ 				android:layout_width="fill_parent"
+ 				android:layout_height="50dp"
+-				android:text="提交反馈"
++				android:text="@string/umeng_feedback_submit"
+ 				android:textSize="19dp"
+ 				android:layout_gravity="center_horizontal"
+ 				android:layout_marginTop="10dp">

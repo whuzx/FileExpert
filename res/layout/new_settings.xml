@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="first_preferencescreen">
+    <PreferenceCategory
+    	android:title="@string/file_explorer_setting"
+    />        
+    <CheckBoxPreference
+            android:key="FileExpertAutoSdCard"
+            android:summary="@string/auto_sd"
+            android:title="@string/auto_sd_title"
+            />
+    <CheckBoxPreference
+            android:key="FileExpertDefaultListMode"
+            android:summary="@string/use_list"
+            android:title="@string/use_list_title" 
+            />
+    <CheckBoxPreference
+            android:key="FileExpertSimpleList"
+            android:summary="@string/simple_list"
+            android:title="@string/simple_list_title" />
+    <CheckBoxPreference
+            android:key="FileExpertHttpWakelock"
+            android:summary="@string/no_sleep"
+            android:title="@string/no_sleep_title" />
+    <CheckBoxPreference
+            android:key="FileExpertShowHiddenDirs"
+            android:summary="@string/show_hidden_dirs"
+            android:title="@string/show_hidden_dirs_title" />
+    <CheckBoxPreference
+            android:key="FileExpertThumbnails"
+            android:summary="@string/thumbnails_info"
+            android:title="@string/thumbnails" />
+    <CheckBoxPreference
+            android:key="FileExpertApkIcon"
+            android:summary="@string/apk_icon_info"
+            android:title="@string/apk_icon" />
+                          
+    <PreferenceCategory
+    	android:title="@string/ftp_setting"
+    />
+    <EditTextPreference
+    	android:key="FileExpertFtpUserName"
+    	android:title="@string/ftp_user"
+    />
+    <EditTextPreference
+    	android:key="FileExpertFtpUserPassword"
+    	android:title="@string/ftp_pass"
+    	android:password="true"
+    />
+    <EditTextPreference
+    	android:key="FileExpertFtpPortString"
+    	android:title="@string/ftp_port"
+    />
+    <ListPreference
+        android:key="FileExpertFtpEncoding"
+        android:title="@string/ftp_encoding"
+        android:summary="@string/pref_ftp_encoding"
+        android:entries="@array/ftp_encodings"
+        android:entryValues="@array/ftp_encodings_values"
+        android:dialogTitle="@string/encoding" />
+    
+    <PreferenceCategory
+    	android:title="@string/http_setting"	
+    />
+    <EditTextPreference
+    	android:key="FileExpertHttpPortString"
+    	android:title="@string/http_port"
+    />
+    <PreferenceCategory
+    	android:title="@string/smb_setting"	
+    />
+    <EditTextPreference
+    	android:key="FileExpertSmbStreamBufSize"
+    	android:title="@string/smb_buf"
+    />
+
+    <PreferenceCategory
+    	android:title="@string/apk_install_setting"	
+    />
+    <CheckBoxPreference
+            android:key="FileExpertSlientInstallApk"
+            android:summary="@string/slient_install_desc"
+            android:title="@string/slient_install"
+            />
+    <ListPreference
+        android:key="FileExpertApkInstallLocation"
+        android:title="@string/apk_location"
+        android:summary="@string/apk_install_loc_desc"
+        android:entries="@array/apk_location"
+        android:entryValues="@array/apk_location_values"
+        android:dialogTitle="@string/apk_location"
+        android:dependency="FileExpertSlientInstallApk"
+        />
+    <CheckBoxPreference
+            android:key="FileExpertSlientUninstallApk"
+            android:summary="@string/silent_uninstall_desc"
+            android:title="@string/silent_uninstall"
+            />
+</PreferenceScreen>

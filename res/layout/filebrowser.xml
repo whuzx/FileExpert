@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+		<EditText android:id="@+id/view_contents"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textSize="15sp"
+			android:singleLine="false"
+			android:scrollbars="vertical"
+			android:focusable="false"
+			>
+		</EditText>
+		
+	<ScrollView android:id="@+id/text_show_scroll" android:visibility="gone"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<xcxin.filexpert.FeTextView android:id="@+id/text_show"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:scrollbars="none">
+		</xcxin.filexpert.FeTextView>
+	</ScrollView>
+</LinearLayout>

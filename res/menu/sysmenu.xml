@@ -1,0 +1,133 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/SYS_PASTE"
+          android:title="@string/paste"
+          android:icon="@drawable/paste"
+          />
+	
+	<item android:title="@string/create_somthing"
+		  android:icon="@drawable/new_menu"
+	>
+	<menu>
+    	<item android:id="@+id/SYS_NEW_DIR"
+          	android:title="@string/create_new_folder"
+          	android:icon="@drawable/newfolder"
+          	/>
+    	<item 
+    		android:id="@+id/SYS_NEW_SMB_SERVER"
+          	android:title="@string/add_new_smb_svr"
+          	/>
+    	<item 
+    		android:id="@+id/SYS_SEARCH_SMB_SERVER"
+          	android:title="@string/search_smb_svr"
+          	/>
+    </menu>
+    </item>
+    
+    <item 	android:title="@string/batch"
+    		android:id="@+id/SYS_BATCH"
+    		android:icon="@drawable/batch"
+    >
+    	<menu>
+    		<item android:id="@+id/SYS_BATCH_SELALL"
+    	  		android:title="@string/selall"
+    	  	/> 
+    		<item android:id="@+id/SYS_BATCH_CANCELALL"
+    	  		android:title="@string/removeall"
+    	  	/>     	  	
+    		<item android:id="@+id/SYS_BATCH_COPY"
+    	  		android:title="@string/copy"
+    	  	/>    	
+    		<item android:id="@+id/SYS_BATCH_CUT"
+    	  		android:title="@string/cut"
+    	  	/>
+    		<item android:id="@+id/SYS_BATCH_DELETE"
+    	  		android:title="@string/delete"
+    	  	/>
+    		<item android:id="@+id/SYS_BATCH_EXECUTE"
+    	  		android:title="@string/batch_run"
+    	  	/>
+    		<item android:id="@+id/SYS_BATCH_BACKUP"
+    	  		android:title="@string/backup"
+    	  	/>
+    		<item android:id="@+id/SYS_BATCH_UNINSTALL"
+    	  		android:title="@string/uninstall"
+    	  	/>
+    	</menu>
+    </item>
+
+    <item android:title="@string/sort"
+          android:icon="@drawable/sort"
+          >
+    	<menu>
+    		<item 
+    			android:title="@string/sort_by_name"
+    			android:id="@+id/SYS_SORT_BY_NAME"
+    		/>
+    		<item 
+    			android:title="@string/sort_by_type"
+    			android:id="@+id/SYS_SORT_BY_TYPE"
+    		/>
+    		<item 
+    			android:title="@string/sort_by_last_modify"
+    			android:id="@+id/SYS_SORT_BY_LAST_MODIFY"
+    		/>
+    		<item 
+    			android:title="@string/sort_by_size"
+    			android:id="@+id/SYS_SORT_BY_SIZE"
+    		/>
+    	</menu>
+    </item>
+    
+	<item android:title="@string/open"
+	      android:icon="@drawable/open"
+	>
+		<menu>
+    		<item android:id="@+id/SYS_OPEN_SMB_NETWORK"
+    	  		android:title="@string/open_share"
+    	  		android:icon="@drawable/network_menu"
+    	  	/>
+    		<item android:id="@+id/SYS_LIST_ALL_APP"
+          		android:title="@string/open_app_list"
+          	/>
+    		<item android:id="@+id/SYS_OPEN_BOOKMARK"
+          		android:title="@string/open_bookmark"
+          	/>
+    	</menu>
+    </item>
+    <item android:id="@+id/SYS_CLOSE_SHARE"
+          android:title="@string/close_share"
+          android:icon="@drawable/close_share"
+          />
+    <item android:id="@+id/SYS_MODECHANGE"
+          android:title="@string/mode_change"
+          android:icon="@drawable/change_mode"
+          />
+    <item android:id="@+id/SYS_SETTINGS"
+          android:title="@string/settings_menu"
+          android:icon="@drawable/settingsmenu"
+          />          	
+    <item android:id="@+id/SYS_HIDE_TABS"
+    	  android:title="@string/hide_tabs"
+    	  />
+    <item android:id="@+id/SYS_MOUNT_SYSTEM"
+          android:title="@string/menu_mount_system"
+          />
+    <item android:id="@+id/SYS_HIDE_TOOLBAR"
+    	  android:title="@string/hide_toolbar"
+    	  />    
+    <item android:id="@+id/SYS_DONATE"
+          android:title="@string/donation"
+          />
+    <item android:id="@+id/SYS_INFO"
+          android:title="@string/info"
+          />          
+	<item android:id="@+id/SYS_ABOUT"
+		  android:title="@string/about"
+		  android:icon="@drawable/about_menu"
+		  />          
+    <item android:id="@+id/SYS_EXIT"
+          android:title="@string/exit_app"
+          android:icon="@drawable/exitmenu"
+          />
+</menu>

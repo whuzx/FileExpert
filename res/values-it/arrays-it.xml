@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ftp_encodings">
+        <item>UTF-8</item>
+        <item>ISO8859-1</item>
+        <item>CP1251</item>
+        <item>GBK</item>
+        <item>BIG5</item>
+    </string-array>
+
+    <string-array name="ftp_encodings_values">
+        <item>UTF-8</item>
+        <item>ISO8859-1</item>
+        <item>CP1251</item>
+        <item>GBK</item>
+        <item>BIG5</item>
+    </string-array>
+
+	<string-array name="txt_viewer_encodings">
+		<item>GB2312</item>
+		<item>UTF-8</item>
+		<item>ISO8859-1</item>
+		<item>CP1251</item>
+		<item>BIG5</item>
+	</string-array>
+
+    <string-array name="apk_location">
+        <item>@string/apk_auto</item>
+        <item>@string/apk_sdcard</item>
+        <item>@string/apk_flash</item>
+    </string-array>
+
+    <string-array name="apk_location_values">
+        <item>@string/apk_auto</item>
+        <item>@string/apk_sdcard</item>
+        <item>@string/apk_flash</item>
+    </string-array>
+        
+</resources>
